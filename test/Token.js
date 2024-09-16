@@ -1,8 +1,8 @@
 // This is an example test file. Hardhat will run every *.js file in `test/`,
 // so feel free to add new ones.
+// Hardhat tests are normally written with Mocha and Chai.
 
 const { ethers } = require('hardhat');
-// Hardhat tests are normally written with Mocha and Chai.
 
 // We import Chai to use its asserting functions here.
 const { expect } = require("chai");
